@@ -12,8 +12,4 @@ public class PrimeiroController {
 		return "Olá Spring Boot!";
 	}
 	
-	@GetMapping(path = "/ola")
-	public String saudacao() {
-		return "Olá Spring Boot!";
-	}
 }
